@@ -20,18 +20,18 @@ BookList类以链表的形式存放图书信息，并提供以下功能：
 - 查询图书（SearchBook）  
   
 ## BookManager 类  
-BookManager类管理图书的整体操作，包括但不限于：  
+BookManager类表示图书管理员类，有一下功能：  
   
 - 增删改查图书信息（通过BookList类实现）  
-- 借书操作（BorrowBook）  
-- 用户登录（Login）  
+- 借书（BorrowBook）  
+- 登录（Login）  
   
 ## Reader 类  
 Reader类表示读者信息，包含以下功能：  
   
 - 查找图书（SearchBook）  
 - 借书（BorrowBook）  
-- 用户登录（Login）  
+- 登录（Login）  
   
 
 
